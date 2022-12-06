@@ -1,0 +1,219 @@
+.career-deco{
+    margin-top: 100px;
+    width:100%;
+    height: 500px;
+    background-image: url('./imgCareer/ambulanceBackground.jpg');
+    background-blend-mode: darken;
+    background-size: cover;   
+}
+
+.career-openings-description{
+    padding: 35px;
+    /*top:100px;*/
+    margin-top: 100px;
+    background-color: white;
+    width: 400px;
+    margin-left: 200px;
+    z-index: 1;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border: black;
+}
+
+.career-openings-description p{
+    margin-bottom: 20px;
+}
+
+.career-openings-description h2{
+    color:#00b39b;
+    padding-bottom:10px;
+    padding-top: 10px;
+}
+
+.dreamjob{
+    top:200px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.dreamjob h2{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #00b39b;
+    text-align: center;
+}
+
+.countryjob-content{
+    margin-bottom: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
+    height:250px;
+    width:225;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.countryjob-content h3{
+    font-size: 20px;
+}
+
+.countryjob-content:hover{
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.countryjob-content Button{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+.countryjob-content img{
+    height:125px;
+    width:150px;
+    cursor: default;
+}
+
+.country-row-1, .country-row-2{
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+.country-row-1 a{
+    text-decoration: none;
+}
+
+
+
+/*-------------------------------------------------docplanner together--------------------------------------------------------------*/
+
+
+#doc-together{
+    background-color: #f6f8f8;
+    margin:50px;
+    /*width: 100%;*/
+}
+#doc-together h2{
+    color:#00b39b;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.insta-link{
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+    height: 220px;
+    width:  460px;
+    text-align: center;
+    margin:5px;
+}
+
+.insta-link p{
+    padding: 10px;
+    margin-top: 25px;
+}
+
+.img-collection{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 160px;
+    margin-right: 160px;
+}
+.img-collection img{
+    margin: 5px;
+}
+
+.img-collection-col-1{
+    display: flex;
+    flex-direction: column;
+}
+
+.img-collection-row-1{
+    display: flex;
+    flex-direction: row;
+}
+.img-collection-row-2{
+    display: flex;
+    flex-direction: row;
+}
+
+/*-------------------------------------------------docplanner positions--------------------------------------------------------------*/
+
+.valuesperks{
+    display: flex;
+    flex-direction: column;
+}
+
+.valuesperks-titles{
+    display: flex;
+  
+}
+
+.value-title{
+    margin-left: 500px;
+}
+
+.perks-title{
+    margin-left: 300px;
+}
+
+.valuesperks-collection{
+    display: flex;
+    flex-direction: row;
+    margin-left: 250px;   
+}
+
+.valuesperks-titles h2{
+    text-align: center;
+    margin-right: 20px;
+    color: #00b39b;
+    margin-bottom: 40px;
+}
+
+.values-content{
+    height:120px;
+    width: 275px;
+    border-color: black;
+    border-width: 10px;
+}
+
+
+.values-content h4{
+    color: black;
+    font-size: 16px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 20px;
+}
+
+.values-content p{
+    color: black;
+    font-size: 12px;
+    margin-left: 40px;
+}
+
+.perks{
+    display: flex;
+    flex-direction: column;
+}
+
+.perks-content{
+    background-color: rgb(245, 244, 244);
+    height:150px;
+    width: 275px;
+}
+
+.perks-content p{
+   margin-left: 40px;
+   margin-top: 10px;
+}
+
+.perks-content span{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/*-------------------------------------------------------------------------doc-game-------------------------------------------------------------------------------*/
+
+#doc-game img{
+    margin-top: 80px;
+    margin-left: 25%;
+}
